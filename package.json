@@ -1,0 +1,25 @@
+{
+  "name": "create-tree_task",
+  "version": "1.0.0",
+  "description": "Solution for Javascript.info Task Create Tree",
+  "main": "scripts/script.js",
+  "dependencies": {
+    "eslint": "^6.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonOsman/create-tree_task.git"
+  },
+  "keywords": [
+    "task",
+    "task-solution",
+    "create-tree"
+  ],
+  "author": "Osman Zakir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragonOsman/create-tree_task/issues"
+  },
+  "homepage": "https://github.com/DragonOsman/create-tree_task#readme"
+}
