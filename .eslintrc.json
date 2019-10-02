@@ -1,0 +1,64 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "standard"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1,
+          "VariableDeclarator": "first"
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": 0,
+      "eqeqeq": [
+        "error",
+        "always",
+        {
+          "null": "ignore"
+        }
+      ],
+      "no-implicit-coercion": [
+        "error",
+        {
+          "allow": [
+            "!!"
+          ]
+        }
+      ],
+      "no-throw-literal": "error",
+      "prefer-promise-reject-errors": ["error", {"allowEmptyReject": true}],
+      "require-await": "error",
+      "camelcase": "error",
+      "eol-last": "error",
+      "new-cap": "error",
+      "no-negated-condition": "warn",
+      "no-var": "error",
+      "prefer-const": "error",
+      "space-before-function-paren": 0,
+      "quote-props": 0,
+      "dot-notation": 0
+    }
+  }
