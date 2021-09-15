@@ -4,7 +4,7 @@
   "description": "Solution for Javascript.info Task Create Tree",
   "main": "scripts/script.js",
   "dependencies": {
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
